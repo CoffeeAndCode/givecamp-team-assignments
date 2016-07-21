@@ -1,0 +1,19 @@
+{
+  "name": "givecamp-team-assignments",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=6.0"
+  },
+  "description": "Parses an attendee csv list to break them into teams.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Knapp <jon@coffeeandcode.com>",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "csv-parse": "^1.1.5"
+  }
+}
